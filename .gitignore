@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node dependencies & build artifacts
+node_modules
+dist
+dist-ssr
+*.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+env/
+venv/
+
+# Large graph datasets exceeding GitHub 100MB file limit
+backend/data/graphs/*.graphml
+backend/data/graphs/*.pickle
+backend/data/graphs/net_pune_pcmc_metro_base.geojson
+!backend/data/graphs/net_2425f71ff482.graphml
+
+# Cache & scratch testing scripts
+cache/
+scratch/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
