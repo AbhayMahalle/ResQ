@@ -1201,8 +1201,4 @@ These are potential enhancements, not claims about currently implemented functio
 
 **ResQ — Smart Disaster Evacuation & Route Optimization System**
 
-*Designed and developed as a Design and Analysis of Algorithms course project.*
-
-**Vishwakarma Institute of Technology, Pune | Academic Year 2026–2027**
-
 </div>
